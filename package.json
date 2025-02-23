@@ -1,5 +1,5 @@
 {
-  "name": "strip-ansi",
+  "name": "strip-ansi-esc",
   "displayName": "Strip ANSI",
   "version": "0.0.1",
   "description": "Strip ANSI escape characters from a file",
@@ -36,7 +36,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "strip-ansi.strip",
+        "command": "strip-ansi-esc.strip",
         "title": "Strip ANSI Escape Characters"
       }
     ]
