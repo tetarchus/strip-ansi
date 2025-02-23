@@ -6,6 +6,19 @@
   "categories": [
     "Other"
   ],
+  "homepage": "https://github.com/tetarchus/strip-ansi#readme",
+  "bugs": "https://github.com/tetarchus/strip-ansi/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetarchus/strip-ansi.git"
+  },
+  "contributors": [
+    {
+      "name": "Tetarchus",
+      "email": "contact@tetbot.app"
+    }
+  ],
+  "publisher": "tetarchus",
   "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -48,5 +61,9 @@
   },
   "engines": {
     "vscode": "^1.97.0"
+  },
+  "galleryBanner": {
+    "color": "#00C7AC",
+    "theme": "dark"
   }
 }
